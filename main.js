@@ -25,7 +25,7 @@ function cutImageUp() {
         canvas.width,
         canvas.height
       );
-      imagePieces.push(canvas.toDataURL());
+      imagePieces.push(canvas.toDataURL("image/png"));
     }
   }
 
